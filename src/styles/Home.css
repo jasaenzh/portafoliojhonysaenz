@@ -19,14 +19,22 @@
 
 .about h2 {
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 80px;
+    font-size: 4rem;
     color: #ffffff;
-    height: 50px;
+    height: 8rem;
+    margin: 2rem;
+}
+
+.about p {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    color: #ffffff;
 }
 
 .about .prompt {
     width: 40%;
     font-size: 30px;
+    margin: 50px;
 }
 
 .prompt svg {
@@ -55,6 +63,43 @@
 
 .list span {
     font-size: 20px;
+}
+
+.photo-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 2rem;
+    padding: 3rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.photo-container img {
+    max-width: 100px;
+    max-height: 100px;
+    padding: 0.5rem;
+    margin: 1rem;
+    margin-bottom: 0rem;
+    column-gap: 2rem
+}
+
+.photo-container {
+    transition: all 0.4s;
+    margin-bottom: 3rem;
+
+}
+
+.photo-container:hover {
+    transform: scale(1.1);
+    color: rgb(83, 83, 239)
+}
+
+.skills_icons {
+    width: 100%;
+    height: auto;
+    -webkit-filter: drop-shadow(5px 5px 5px #222222);
+    filter: drop-shadow(3px 5px 4px #222222);
+
 }
 
 @media only screen and (max-width: 600px) {
