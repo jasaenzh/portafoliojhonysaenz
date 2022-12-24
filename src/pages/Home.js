@@ -12,7 +12,7 @@ function Home() {
                 <h2>Hola, mi nombre Jhony Alberto Saenz Hurtado</h2>
                 <div className='prompt'>
                     <p>
-                        Soy Full Stack Web Develop, Tecnólogo en sistemas de información, estudiante de Ingeniería de Sistemas entre otros cursos que he obtenido a lo largo de mi vida profesional,
+                        Soy Full Stack Web Developer, Tecnólogo en sistemas de información, estudiante de Ingeniería de Sistemas entre otros cursos que he obtenido a lo largo de mi vida profesional,
                         actualmente estoy trabajando para NCR que es el líder mundial en tecnología empresarial para restaurantes, minoristas y bancos.
                         Mi vida profesional siempre ha estado enfocada al ámbito de la tecnología, pero más para el lado del servicio.
                     </p>

@@ -12,6 +12,7 @@ import typescript from "../assets/skills/typescript.png"
 import ngrx from "../assets/skills/ngrx.png"
 import express from "../assets/skills/express.png"
 import github from "../assets/skills/github.png"
+import linux from "../assets/skills/linux-original.svg"
 
 
 export const technologies = [
@@ -83,6 +84,11 @@ export const technologies = [
     {
         title: 'GitHub',
         image: github,
+        link: 'https://github.com/'
+    },
+    {
+        title: 'Linux',
+        image: linux,
         link: 'https://github.com/'
     },
 ]
