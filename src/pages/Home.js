@@ -13,7 +13,7 @@ function Home() {
                 <div className='prompt'>
                     <p>
                         Soy Full Stack Web Developer, Tecnólogo en sistemas de información, estudiante de Ingeniería de Sistemas entre otros cursos que he obtenido a lo largo de mi vida profesional.
-                        Mi vida laboral siempre ha estado enfocada al ámbito de la tecnología, pero más para el lado administrativo, con el pasar de los años me he dado cuenta mi gusto esta más orientado
+                        Mi vida laboral siempre ha estado enfocada al ámbito de la tecnología, pero más para el lado administrativo, con el pasar de los años me he dado cuenta que mi gusto esta más orientado
                         a la programación, es por ellos que decidí formarme como Full Stack Web Developer y paralelo a ello terminar mi carrera universitaria.
                     </p>
                     <a href="https://www.linkedin.com/in/jhony-saenz-hurtado/" target="_blank" rel="noopener noreferrer"><LinkedInIcon /></a>
