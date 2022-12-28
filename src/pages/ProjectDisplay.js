@@ -13,7 +13,12 @@ function ProjectDisplay() {
         <div className='project'>
             <h1> {project.name} </h1>
             <img src={project.image} />
-            <p> <b>Skills:</b> {project.skills}</p>
+            <div className='parrafoProject'>
+                {project.description}
+            </div>
+            <p>
+                <b>Skills:</b> {project.skills}
+            </p>
 
             <div className='projectIcon'>
                 <Button className='projectButtonLink'>
@@ -28,7 +33,6 @@ function ProjectDisplay() {
                         </div>
                     </div>
                 </Button>
-
 
                 <Button className='projectButtonLink'>
                     <div>
@@ -55,7 +59,6 @@ function ProjectDisplay() {
                         </div>
                     </div>
                 </Button>
-
 
             </div>
 
