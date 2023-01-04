@@ -4,6 +4,7 @@ import { ProjecList } from '../helpers/ProjectList';
 import GitHubIcon from '@material-ui/icons/GitHub';
 import { Button } from '@material-ui/core';
 import LanguageIcon from '@material-ui/icons/Language';
+import WebIcon from '@material-ui/icons/Web';
 import "../styles/ProjectDisplay.css"
 
 function ProjectDisplay() {
@@ -51,11 +52,11 @@ function ProjectDisplay() {
                     <div>
                         <div>
                             <a href={project.linkDeploy} target="_blank" rel="noopener noreferrer"  >
-                                <LanguageIcon></LanguageIcon>
+                                <WebIcon></WebIcon>
                             </a>
                         </div>
                         <div>
-                            <h5>deploy</h5>
+                            <h5>Page</h5>
                         </div>
                     </div>
                 </Button>

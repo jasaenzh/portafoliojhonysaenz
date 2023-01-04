@@ -7,7 +7,7 @@
 
 .about {
     width: 100%;
-    height: calc(100vh - 100px);
+    height: calc(100vh - 120px);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -19,32 +19,32 @@
 
 .about h2 {
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 4rem;
+    font-size: 3rem;
     color: #ffffff;
-    height: 8rem;
-    margin: 2rem;
+    height: 3rem;
+    margin: 1rem;
 }
 
 .about p {
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 20px;
+    font-size: 1.3rem;
     color: #ffffff;
 }
 
 .about .prompt {
-    width: 40%;
-    font-size: 30px;
-    margin: 50px;
+    width: 90%;
+    margin: 1.5rem;
 }
 
 .prompt svg {
-    font-size: 60px;
-    margin: 5px;
+    font-size: 3rem;
+    margin: 1rem;
     color: white;
+
 }
 
 .skills {
-    font-size: 35px;
+    font-size: 2rem;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -62,7 +62,7 @@
 }
 
 .list span {
-    font-size: 20px;
+    font-size: 1rem;
 }
 
 .photo-gallery {
@@ -75,8 +75,8 @@
 }
 
 .photo-container img {
-    max-width: 100px;
-    max-height: 100px;
+    max-width: 6rem;
+    max-height: 7rem;
     padding: 0.5rem;
     margin: 1rem;
     margin-bottom: 0rem;
@@ -97,20 +97,24 @@
 .skills_icons {
     width: 100%;
     height: auto;
-    -webkit-filter: drop-shadow(5px 5px 5px #222222);
-    filter: drop-shadow(3px 5px 4px #222222);
+    -webkit-filter: drop-shadow(2rem 2rem 2rem #222222);
+    filter: drop-shadow(0.5rem 0.8rem 0.8rem #222222);
 
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 493px) {
     .about h2 {
-        font-size: 40px;
+        font-size: 2rem;
     }
 
     .about .prompt {
-        margin-top: 10px;
-        font-size: 20px;
+        margin-top: 0.5rem;
+        font-size: 0.5rem;
         width: 80%;
+    }
+
+    .about p {
+        font-size: 1.7rem;
     }
 
     .skills {
@@ -122,6 +126,64 @@
     }
 
     .skills h2 {
-        font-size: 30px;
+        font-size: 3rem;
+    }
+}
+
+
+
+@media only screen and (max-width: 400px) {
+    .about h2 {
+        font-size: 1.5rem;
+    }
+
+    .about .prompt {
+        margin-top: 0.5rem;
+        font-size: 0.1rem;
+        width: 80%;
+    }
+
+    .about p {
+        font-size: 1.3rem;
+    }
+
+    .skills {
+        text-align: center;
+    }
+
+    .list {
+        padding: 0;
+    }
+
+    .skills h2 {
+        font-size: 3rem;
+    }
+}
+
+@media only screen and (max-width: 300px) {
+    .about h2 {
+        font-size: 1.3rem;
+    }
+
+    .about .prompt {
+        margin-top: 0.5rem;
+        font-size: 0.1rem;
+        width: 80%;
+    }
+
+    .about p {
+        font-size: 1.1rem;
+    }
+
+    .skills {
+        text-align: center;
+    }
+
+    .list {
+        padding: 0;
+    }
+
+    .skills h2 {
+        font-size: 3rem;
     }
 }

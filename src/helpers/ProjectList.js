@@ -8,8 +8,8 @@ export const ProjecList = [
         image: Renten1,
         description: "Esta aplicación se ha desarrollado en equipo con otras 5 personas utilizando SCRUM como nuestra metodología ágil. Es una aplicación de página única (SPA) que permite a los usuarios ver alojamientos en todo el mundo, filtrarlos según sus necesidades y alquilarlos. Cuenta con un sistema de inicio de sesión mediante Auth0 y una pasarela de pago de MercadoPago. Además, cuenta con un panel de administración que permite eliminar y editar casas y usuarios, así como un sistema de eliminación lógica que permite 'banear' a los usuarios sin eliminarlos por completo de la base de datos. En el front-end, se ha utilizado Angular junto con NgRx para administrar los estados globales, Bootstrap, CSS y Material para diseñar. También tiene un modo oscuro. En el back-end, se ha utilizado Node.js con Express para el enrutamiento y Sequelize como ORM (mapeo relacional de objetos) para interactuar con la base de datos en PostgreSQL. También se han utilizado bibliotecas como NodeMailer para enviar notificaciones a los usuarios y Cloudinary para cargar imágenes. En general, la aplicación proporciona una plataforma completa y fácil de usar para buscar, filtrar y alquilar alojamientos en todo el mundo.",
         skills: "Angular, Bootstrap, CSS, Express, HTML, NgRx, PostgreSQL, Sequelize JavaScripts, TypeScripts",
-        linkGitHubBackEnd: "https://github.com/raulereno/rent-ten",
-        linkGitFrontEnd: "https://github.com/raulereno/rent-ten",
+        linkGitHubBackEnd: "https://github.com/raulereno/rent-ten/tree/main/api",
+        linkGitFrontEnd: "https://github.com/raulereno/rent-ten/tree/main/client",
         linkDeploy: "https://rent-ten.vercel.app/home"
     }, {
         name: "Videogames",

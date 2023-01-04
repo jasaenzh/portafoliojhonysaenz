@@ -9,12 +9,17 @@ function Home() {
     return (
         <div className='home'>
             <div className='about'>
-                <h2>Hola, mi nombre Jhony Saenz Hurtado</h2>
+                <h2>Hola, mi nombre es Jhony Saenz Hurtado</h2>
                 <div className='prompt'>
                     <p>
-                        Soy Full Stack Web Developer, Tecnólogo en sistemas de información, estudiante de Ingeniería de Sistemas entre otros cursos que he obtenido a lo largo de mi vida profesional.
-                        Mi vida laboral siempre ha estado enfocada al ámbito de la tecnología, pero más para el lado administrativo, con el pasar de los años me he dado cuenta que mi gusto esta más orientado
-                        a la programación, es por ellos que decidí formarme como Full Stack Web Developer y paralelo a ello terminar mi carrera universitaria.
+                        Soy Full Stack Web Developer, Tecnólogo en sistemas de información y estudiante de Ingeniería de Software. En mi vida laboral siempre
+                        he estado enfocado en el ámbito de la tecnología, principalmente en labores administrativas. Sin embargo, con el tiempo me di cuenta
+                        de que mi verdadera pasión es la programación. Por eso, decidí formarme como Full Stack Web Developer y, al mismo tiempo, continuar mis
+                        estudios universitarios en Ingeniería de Software. Me siento muy satisfecho de haber tomado esta decisión, ya que me ha permitido
+                        desarrollar una amplia gama de habilidades y conocimientos técnicos, y también me ha brindado la oportunidad de trabajar en proyectos
+                        interesantes y desafiantes. Además, estoy constantemente buscando nuevas oportunidades de aprendizaje y me encanta estar al tanto de
+                        las últimas tendencias y novedades en el mundo de la tecnología. En resumen, soy un apasionado de la programación y estoy comprometido
+                        a seguir aprendiendo y creciendo en mi carrera.
                     </p>
                     <a href="https://www.linkedin.com/in/jhony-saenz-hurtado/" target="_blank" rel="noopener noreferrer"><LinkedInIcon /></a>
                     <a href="https://github.com/jasaenzh" target="_blank" rel="noopener noreferrer"><GitHubIcon /></a>
