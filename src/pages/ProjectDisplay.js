@@ -3,7 +3,7 @@ import { useParams } from 'react-router-dom'
 import { ProjecList } from '../helpers/ProjectList';
 import GitHubIcon from '@material-ui/icons/GitHub';
 import { Button } from '@material-ui/core';
-import LanguageIcon from '@material-ui/icons/Language';
+// import LanguageIcon from '@material-ui/icons/Language';
 import WebIcon from '@material-ui/icons/Web';
 import "../styles/ProjectDisplay.css"
 
